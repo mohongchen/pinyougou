@@ -1,11 +1,13 @@
-.main{
+.main {
     height: 465px;
 }
-.main .dd ul{
+
+.main .dd ul {
     width: 209px;
     height: 465px;
 }
-.main .dd .menu_item{
+
+.main .dd .menu_item {
     display: inline-block;
     height: 31px;
     width: 188px;
@@ -14,33 +16,41 @@
     color: #fff;
     background-color: #c81623;
 }
-.main .dd .menu_item:hover{
+
+.main .dd .menu_item:hover {
     background-color: #fff;
     color: #c81623;
     padding-left: 20px;
 }
-.main .dd .menu_item:hover a{
+
+.main .dd .menu_item:hover a {
     color: #c81623;
 }
-.main .dd .menu_item:hover i{
+
+.main .dd .menu_item:hover i {
     font-size: 0;
 }
-.main .dd .menu_item a{
+
+.main .dd .menu_item a {
     color: #fff;
     font-size: 14px;
 
 }
-.main .dd .menu_item i{
+
+.main .dd .menu_item i {
     float: right;
     font-family: 'icomoon';
 }
+
 .focus {
     position: relative;
 }
-.focus a img{
-    margin:  10px 0 0 10px;
+
+.focus a img {
+    margin: 10px 0 0 10px;
 }
-.focus .arrow-l{
+
+.focus .arrow-l {
     width: 24px;
     height: 40px;
     font-size: 18px;
@@ -54,7 +64,8 @@
     line-height: 40px;
     margin-left: 10px;
 }
-.focus .arrow-r{
+
+.focus .arrow-r {
     width: 24px;
     height: 40px;
     font-size: 18px;
@@ -68,12 +79,14 @@
     text-align: center;
     line-height: 40px;
 }
-.focus .circle{
+
+.focus .circle {
     position: absolute;
     left: 60px;
     bottom: 10px;
 }
-.focus .circle li{
+
+.focus .circle li {
     width: 8px;
     height: 8px;
     margin: 0 3px;
@@ -83,19 +96,22 @@
     cursor: pointer;
     font-size: 12px;
 }
-.focus .circle .current{
-    background-color: #fff;
-} 
 
-.newsflash{
+.focus .circle .current {
+    background-color: #fff;
+}
+
+.newsflash {
     width: 250px;
     height: 455px;
     margin-top: 10px;
 }
-.news{
+
+.news {
     border: 1px solid #ccc;
 }
-.newsflash .news_head{
+
+.newsflash .news_head {
     width: 218px;
     height: 33px;
     line-height: 33px;
@@ -104,24 +120,29 @@
     border-bottom: 1px dotted #ccc;
 }
 
-.newsflash .news_head a{
+.newsflash .news_head a {
     font-size: 12px;
 }
-.newsflash .news_body{
+
+.newsflash .news_body {
     border-bottom: 1px solid #ccc;
 }
-.newsflash .news_body ul{
+
+.newsflash .news_body ul {
     padding: 10px 0 10px 15px
 }
-.newsflash .news_body li{
+
+.newsflash .news_body li {
     height: 23px;
     line-height: 23px;
 }
-.lifeservice{
+
+.lifeservice {
     width: 250px;
     height: 210px;
 }
-.lifeservice ul li a{
+
+.lifeservice ul li a {
     display: block;
     height: 67px;
     float: left;
@@ -129,7 +150,8 @@
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-.lifeservice ul li a i{
+
+.lifeservice ul li a i {
     display: block;
     width: 24px;
     height: 24px;
@@ -137,19 +159,127 @@
     background: url(../images/icons.png) no-repeat;
     background-position: -17px -16px;
 }
-.lifeservice ul li p{
+
+.lifeservice ul li p {
     display: block;
     width: 61px;
     text-align: center;
 }
-.clearBorderRight{
+
+.clearBorderRight {
     border-right: none !important;
 }
-.lifeservice span{
+
+.lifeservice span {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     height: 15px;
     width: 12px;
     background: url(../images/jian.jpg)no-repeat;
+}
+
+/*recommend 今日推荐*/
+.recommend {
+    margin-top: 10px;
+    height: 163px;
+}
+
+.recommend .recom-l {
+    height: 163px;
+    width: 200px;
+    text-align: center;
+    background: #5c5251;
+    color: #fff;
+}
+
+.recommend .recom-l img {
+    margin-top: 30px;
+}
+
+.recommend .recom-r {
+    /* height: 163px; */
+    background: #ebebeb;
+    /* line-height: 163px; */
+}
+
+.recommend .recom-r li {
+    width: 249px;
+    float: left;
+    border-right: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.recommend .recom-r ul li:last-child {
+    border-right: 1px solid #ebebeb;
+}
+
+/*floor*/
+.floor .jiadian .box-hd {
+    margin-top: 25px;
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    line-height: 30px;
+}
+
+.floor .jiadian .box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.floor .jiadian .box-hd ul {
+    float: right;
+}
+
+.floor .jiadian .box-hd li {
+    float: left;
+}
+
+.floor .jiadian .box-hd li a {
+    margin: 0 15px;
+}
+
+.floor .jiadian .box-hd .hot {
+    color: #f00;
+}
+
+/*floor bd*/
+.floor .tab-con .w209 {
+    width: 209px;
+    background-color: #f9f9f9
+}
+
+.floor .tab-con .w209 li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.floor .tab-con .w329{
+    width: 329px;
+    overflow: hidden;
+}
+.floor .tab-con .w219{
+    width: 219px;
+    overflow: hidden;
+}
+.floor .tab-con .w220 {
+    width: 220px;
+    overflow: hidden;
+}
+.floor .tab-con .tab-con-item{
+    border-bottom: 1px solid #ccc;
+}
+.box-bd img {
+    /*过渡写到本身上， 谁做动画，给谁加*/
+    transition: all .2s;
+}
+
+/*我们鼠标经过图片 往右走 8px*/
+.box-bd img:hover {
+    margin-left: 8px;
 }
